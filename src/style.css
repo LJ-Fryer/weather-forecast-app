@@ -14,6 +14,8 @@ header {
   border-bottom: 1px solid #f7f9f9;
   padding: 0 0 30px 0;
   text-align: center;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .search-form-input {
   background: #f7f9f9;
@@ -53,6 +55,22 @@ main {
 }
 .weather-app-details strong {
   color: #f65282;
+}
+.weather-app-temperture-container {
+  display: flex;
+}
+.weather-app-icon {
+  font-size: 65px;
+  margin-top: 22px;
+}
+.weather-app-temperture {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.weather-app-unit {
+  margin-top: 20px;
+  font-size: 40px;
 }
 footer {
   text-align: center;
