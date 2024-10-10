@@ -43,10 +43,10 @@ main {
   justify-content: space-between;
 }
 .weather-app-city {
-  margin: 0;
-  font-size: 38px;
+  margin-top: 30px;
+  font-size: 70px;
   line-height: 48px;
-  font-weight: 700px;
+  font-weight: bold;
 }
 .weather-app-details {
   font-size: 16px;
