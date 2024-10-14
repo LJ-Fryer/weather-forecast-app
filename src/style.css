@@ -43,8 +43,8 @@ main {
   justify-content: space-between;
 }
 .weather-app-city {
-  margin-top: 30px;
-  font-size: 70px;
+  margin-top: 10px;
+  font-size: 88px;
   line-height: 48px;
   font-weight: bold;
 }
@@ -60,17 +60,17 @@ main {
   display: flex;
 }
 .weather-app-icon {
-  font-size: 65px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 .weather-app-temperture {
   font-size: 88px;
   font-weight: bold;
-  margin-left: 15px;
+  margin-left: 10px;
+  line-height: 88px;
 }
 .weather-app-unit {
-  margin-top: 20px;
-  font-size: 40px;
+  font-size: 50px;
 }
 footer {
   text-align: center;
