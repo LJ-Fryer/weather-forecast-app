@@ -26,7 +26,7 @@ header {
   background: #f7f9f9;
   border: none;
   border-radius: 6px;
-  width: 75%;
+  width: 70%;
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -76,6 +76,33 @@ header {
 .weather-app-unit {
   font-size: 40px;
   line-height: 80px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: #0a0a0a66;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 30px;
+}
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: #f65282;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.forecast-temperature-maximum {
+  padding: 0 10px;
 }
 footer {
   text-align: center;
