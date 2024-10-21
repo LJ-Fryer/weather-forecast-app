@@ -65,16 +65,16 @@ header {
   display: flex;
 }
 .weather-app-icon {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 .weather-app-temperture {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
   margin-left: 10px;
 }
 .weather-app-unit {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 80px;
 }
 .weather-forecast {
@@ -91,7 +91,7 @@ header {
 }
 .weather-forecast-icon {
   text-align: center;
-  font-size: 30px;
+  width: 100%;
 }
 .weather-forecast-temperatures {
   display: flex;
